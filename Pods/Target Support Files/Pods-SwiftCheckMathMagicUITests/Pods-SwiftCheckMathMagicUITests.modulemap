@@ -1,0 +1,6 @@
+framework module Pods_SwiftCheckMathMagicUITests {
+  umbrella header "Pods-SwiftCheckMathMagicUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

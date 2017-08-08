@@ -1,0 +1,932 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A23C3608381ECA01C1BE56CDD8377FD /* Lattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54DFCD6F4D3045F12184D60038E9CA /* Lattice.swift */; };
+		11B64D117CA9527BF107C8AC15D6A18C /* CoArbitrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D7360BBC507E24F70EF0A910A2D5B2 /* CoArbitrary.swift */; };
+		1213265638FA4B11F60610899FD06BE5 /* Cartesian.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECFD264EE739AB219D63DF0F33EDDA9 /* Cartesian.swift */; };
+		1CAA996BC2C082CBD384106F3247CC8F /* Pods-SwiftCheckMathMagicUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F298F19D0F16D783456BC217BB7E0CAE /* Pods-SwiftCheckMathMagicUITests-dummy.m */; };
+		21289CBA7D0C98901CAC4AC1D4CB76D5 /* Gen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC176601E486E4C78629B1B1402E0326 /* Gen.swift */; };
+		2C94463527C09C7788B5418D584603EB /* SwiftCheck-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A25C589D1AD5E8629571E548CAF210C8 /* SwiftCheck-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30A12CA3D4931EFB97EE51CF82B9C6C4 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085137C3D43CEFEAF3F1357676095E37 /* State.swift */; };
+		3592979604E6F124B4CC8C2A21EBBBEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		376B6026AD221F584B0348390FEB25FD /* Compose.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30F1AAA54ADDC0DF03606009442FFC /* Compose.swift */; };
+		3DB3715086D79D8A6A48ED749BACC7F6 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94647F328D6A26FF4C2CE8A2B36D383E /* Property.swift */; };
+		40C7A01E6D5CCD81D5CA612DCA563B8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		4D08B84FDE5884EB0DCB0558900D149B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		5BD9D2E2DBCE125688C857181BD3E6C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		71B81B40044107BC6FD48B5034F24C3C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */; };
+		7A4115195FCDF4CB5AE6CCA9F2BA98B4 /* WitnessedArbitrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1B8F85EBB73173BF32146389AF081 /* WitnessedArbitrary.swift */; };
+		7AA2C16B03D3D25ABE67DBE1702C5F07 /* Arbitrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB894A3933DA922571B4FE5E315E2AE /* Arbitrary.swift */; };
+		9010E886BAA8C0504E6B5EB77FED3A0C /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2069E2C4B62A0327C0C0BAC6479D11D8 /* Modifiers.swift */; };
+		981AFE023A39E08ED20275AC6D8A8135 /* Pods-SwiftCheckMathMagic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F528559FE0964E455B0D4CD8883CED27 /* Pods-SwiftCheckMathMagic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A41E1130F53E0D356B1752A2F632DD5C /* Check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8181DC49E09C6F435FC171AE71CDEB /* Check.swift */; };
+		B1597622F7D4E727B32AD30F45D31DB0 /* SwiftCheck-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF31CBF5D2290AE3FCABF8B00269CD3 /* SwiftCheck-dummy.m */; };
+		BD470586B179FB88E33830D2708046D6 /* Testable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2984A199C119AC1ED76F3CC44640E925 /* Testable.swift */; };
+		C16F9E21E97B48EF59EB30787EF61D0D /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B4FF1BFDEDD101CC2A545BB850C0E /* Random.swift */; };
+		C22ECEA90CA18876FDD6BD865EA4FB9F /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D6954B8F04BE10F3930C2A46B8434F /* Test.swift */; };
+		CD25961F73380F96A06CE6BC6E0804B5 /* Pods-SwiftCheckMathMagicTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5566C77DB1AB2F4C872A8441C462941 /* Pods-SwiftCheckMathMagicTests-dummy.m */; };
+		DD2B13F4C4ADC1BF71547FF0E254EF23 /* Rose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA5D9A4D850007CAD4D216427630D55 /* Rose.swift */; };
+		E9E21DC756ACD2D3D6ED0470820643D2 /* Pods-SwiftCheckMathMagic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FAAD42FA7D40980EC8971E9B2685A6 /* Pods-SwiftCheckMathMagic-dummy.m */; };
+		EB1F545071D6039A52D38083B9556B58 /* Pods-SwiftCheckMathMagicUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB572AD7FBF9A625FFE9F3981C0DC2C /* Pods-SwiftCheckMathMagicUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB3BD7FDCC3C241CD6DEB7E5CC2A4A97 /* Pods-SwiftCheckMathMagicTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43991DE198F06BE8A92B932BACBE2BA0 /* Pods-SwiftCheckMathMagicTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEAEDB30678AC532495C6B9BAB0D542C /* Witness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A03641970F0ACBDC6551F617362A2B /* Witness.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5313587E0E9BA8653E250C80474511D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4BB3734842A22F6B02B1B060422BD5D;
+			remoteInfo = SwiftCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06A3E9195371B3F54CA921FFB8C81EC6 /* SwiftCheck.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCheck.xcconfig; sourceTree = "<group>"; };
+		07FAAD42FA7D40980EC8971E9B2685A6 /* Pods-SwiftCheckMathMagic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftCheckMathMagic-dummy.m"; sourceTree = "<group>"; };
+		085137C3D43CEFEAF3F1357676095E37 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/State.swift; sourceTree = "<group>"; };
+		0AA5D9A4D850007CAD4D216427630D55 /* Rose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rose.swift; path = Sources/Rose.swift; sourceTree = "<group>"; };
+		0EB1B8F85EBB73173BF32146389AF081 /* WitnessedArbitrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WitnessedArbitrary.swift; path = Sources/WitnessedArbitrary.swift; sourceTree = "<group>"; };
+		13C4887CAB9EE998404E3B9C6274F16B /* Pods-SwiftCheckMathMagic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCheckMathMagic.debug.xcconfig"; sourceTree = "<group>"; };
+		1588E75698D5CE7AF7E3E1C404FA32FA /* Pods-SwiftCheckMathMagicTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftCheckMathMagicTests-frameworks.sh"; sourceTree = "<group>"; };
+		16D7360BBC507E24F70EF0A910A2D5B2 /* CoArbitrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoArbitrary.swift; path = Sources/CoArbitrary.swift; sourceTree = "<group>"; };
+		175286A0B340C4A3EF69476D81B71777 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18682C66B8FFB46C15537B3F04F81CEE /* Pods-SwiftCheckMathMagicUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftCheckMathMagicUITests-frameworks.sh"; sourceTree = "<group>"; };
+		205A1ABF4F5EF111DDD32D6C50FFDD9D /* Pods_SwiftCheckMathMagicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftCheckMathMagicUITests.framework; path = "Pods-SwiftCheckMathMagicUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2069E2C4B62A0327C0C0BAC6479D11D8 /* Modifiers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Modifiers.swift; path = Sources/Modifiers.swift; sourceTree = "<group>"; };
+		2984A199C119AC1ED76F3CC44640E925 /* Testable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Testable.swift; path = Sources/Testable.swift; sourceTree = "<group>"; };
+		33018BAD84D464435E156043E622BB72 /* Pods-SwiftCheckMathMagicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCheckMathMagicTests.release.xcconfig"; sourceTree = "<group>"; };
+		3304E8F3393B3DF33F27618DE2CAAA38 /* Pods-SwiftCheckMathMagicUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftCheckMathMagicUITests.modulemap"; sourceTree = "<group>"; };
+		3A54DFCD6F4D3045F12184D60038E9CA /* Lattice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lattice.swift; path = Sources/Lattice.swift; sourceTree = "<group>"; };
+		3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		43991DE198F06BE8A92B932BACBE2BA0 /* Pods-SwiftCheckMathMagicTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftCheckMathMagicTests-umbrella.h"; sourceTree = "<group>"; };
+		45E648CB31EF5442160DA321A8E0AA9C /* Pods-SwiftCheckMathMagicTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftCheckMathMagicTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		463E4CF8021CF64C3BED28E2D1EEA8AE /* Pods-SwiftCheckMathMagic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftCheckMathMagic-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A4269C1E3D28C8EA4D2BD2397574DAC /* SwiftCheck-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCheck-prefix.pch"; sourceTree = "<group>"; };
+		4FB572AD7FBF9A625FFE9F3981C0DC2C /* Pods-SwiftCheckMathMagicUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftCheckMathMagicUITests-umbrella.h"; sourceTree = "<group>"; };
+		549FEA717CF85661A29A8B60287D926F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		553B55AFFB897B6E5E6E6006084FA79C /* Pods-SwiftCheckMathMagic-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftCheckMathMagic-frameworks.sh"; sourceTree = "<group>"; };
+		5E1C6463F9724E3F7E28B5098F57571A /* Pods-SwiftCheckMathMagic-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftCheckMathMagic-resources.sh"; sourceTree = "<group>"; };
+		6791EBBD6EE08D01D7EF14E8BC33849A /* Pods_SwiftCheckMathMagicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftCheckMathMagicTests.framework; path = "Pods-SwiftCheckMathMagicTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB894A3933DA922571B4FE5E315E2AE /* Arbitrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Arbitrary.swift; path = Sources/Arbitrary.swift; sourceTree = "<group>"; };
+		7E3B4FF1BFDEDD101CC2A545BB850C0E /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = Sources/Random.swift; sourceTree = "<group>"; };
+		80A03641970F0ACBDC6551F617362A2B /* Witness.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Witness.swift; path = Sources/Witness.swift; sourceTree = "<group>"; };
+		82986B6C4975F8D86C34B8C92B424177 /* Pods-SwiftCheckMathMagic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCheckMathMagic.release.xcconfig"; sourceTree = "<group>"; };
+		85DD9218112D234933A84F175F5F0CFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		872F6B179B042D62B0C17AF125EED786 /* Pods-SwiftCheckMathMagicTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftCheckMathMagicTests.modulemap"; sourceTree = "<group>"; };
+		8E8181DC49E09C6F435FC171AE71CDEB /* Check.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Check.swift; path = Sources/Check.swift; sourceTree = "<group>"; };
+		8F403BDE167480729822CE84B5678CAE /* Pods-SwiftCheckMathMagicUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftCheckMathMagicUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		905637738ABB9F6302581E006B29510C /* Pods-SwiftCheckMathMagic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftCheckMathMagic.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94647F328D6A26FF4C2CE8A2B36D383E /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Sources/Property.swift; sourceTree = "<group>"; };
+		94D6954B8F04BE10F3930C2A46B8434F /* Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Test.swift; path = Sources/Test.swift; sourceTree = "<group>"; };
+		97F9ECDD7D17DEC9F318F421C16A223E /* Pods-SwiftCheckMathMagicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCheckMathMagicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		99EBCFC7E5569B91896EA78FA8ED3D17 /* Pods-SwiftCheckMathMagic-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftCheckMathMagic-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D85E6F24C6FF2CA49B6734BC34DE54F /* SwiftCheck.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftCheck.modulemap; sourceTree = "<group>"; };
+		A25C589D1AD5E8629571E548CAF210C8 /* SwiftCheck-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCheck-umbrella.h"; sourceTree = "<group>"; };
+		A72FBF2473959A8DC274CFBA4D736CB8 /* Pods-SwiftCheckMathMagicTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftCheckMathMagicTests-resources.sh"; sourceTree = "<group>"; };
+		AFF31CBF5D2290AE3FCABF8B00269CD3 /* SwiftCheck-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftCheck-dummy.m"; sourceTree = "<group>"; };
+		B5566C77DB1AB2F4C872A8441C462941 /* Pods-SwiftCheckMathMagicTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftCheckMathMagicTests-dummy.m"; sourceTree = "<group>"; };
+		C60B1621ECD312E4ABC9845913E39036 /* Pods-SwiftCheckMathMagicUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftCheckMathMagicUITests-resources.sh"; sourceTree = "<group>"; };
+		CC176601E486E4C78629B1B1402E0326 /* Gen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gen.swift; path = Sources/Gen.swift; sourceTree = "<group>"; };
+		CC73E5EDEDF620E5EB90B29A6A0F4186 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECFD264EE739AB219D63DF0F33EDDA9 /* Cartesian.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cartesian.swift; path = Sources/Cartesian.swift; sourceTree = "<group>"; };
+		D0EA26BA25A9E20DE1A144E06FFBE552 /* Pods-SwiftCheckMathMagicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCheckMathMagicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D328ED1D1D854DD7F21CD0C07194CE5F /* Pods-SwiftCheckMathMagicUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftCheckMathMagicUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6DC2E415E3904D25262E3E1BA43CC21 /* Pods-SwiftCheckMathMagicTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftCheckMathMagicTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3FCFF8311DEE263A1516C70AF0D2F1A /* Pods_SwiftCheckMathMagic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftCheckMathMagic.framework; path = "Pods-SwiftCheckMathMagic.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F298F19D0F16D783456BC217BB7E0CAE /* Pods-SwiftCheckMathMagicUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftCheckMathMagicUITests-dummy.m"; sourceTree = "<group>"; };
+		F528559FE0964E455B0D4CD8883CED27 /* Pods-SwiftCheckMathMagic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftCheckMathMagic-umbrella.h"; sourceTree = "<group>"; };
+		FA30F1AAA54ADDC0DF03606009442FFC /* Compose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compose.swift; path = Sources/Compose.swift; sourceTree = "<group>"; };
+		FA7CF715F88093B75CC53D6C7A7FAEA6 /* SwiftCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftCheck.framework; path = SwiftCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9ADAC35DA375B3160C906E82482D68 /* Pods-SwiftCheckMathMagicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCheckMathMagicTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B8F5EB677F9C03E26CE89F6FFF381B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C7A01E6D5CCD81D5CA612DCA563B8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E8527B46152B31D746D53B6EC9AC32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D08B84FDE5884EB0DCB0558900D149B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6937BE78E10A33B20A7976CEABBD6271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD9D2E2DBCE125688C857181BD3E6C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CD240D11C09D99C12C6964F8AD7BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3592979604E6F124B4CC8C2A21EBBBEC /* Foundation.framework in Frameworks */,
+				71B81B40044107BC6FD48B5034F24C3C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04724548D62F82B5E3708789755D0571 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF38C25D2F1B9395DD0B268FCD600931 /* Pods-SwiftCheckMathMagic */,
+				8E7933473B8467E357B4384791BB7AC6 /* Pods-SwiftCheckMathMagicTests */,
+				413D22A55E13C7FE1A8B8033AB338163 /* Pods-SwiftCheckMathMagicUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1CD4912585D8D207A9DAB24E114974C9 /* SwiftCheck */ = {
+			isa = PBXGroup;
+			children = (
+				6EB894A3933DA922571B4FE5E315E2AE /* Arbitrary.swift */,
+				CECFD264EE739AB219D63DF0F33EDDA9 /* Cartesian.swift */,
+				8E8181DC49E09C6F435FC171AE71CDEB /* Check.swift */,
+				16D7360BBC507E24F70EF0A910A2D5B2 /* CoArbitrary.swift */,
+				FA30F1AAA54ADDC0DF03606009442FFC /* Compose.swift */,
+				CC176601E486E4C78629B1B1402E0326 /* Gen.swift */,
+				3A54DFCD6F4D3045F12184D60038E9CA /* Lattice.swift */,
+				2069E2C4B62A0327C0C0BAC6479D11D8 /* Modifiers.swift */,
+				94647F328D6A26FF4C2CE8A2B36D383E /* Property.swift */,
+				7E3B4FF1BFDEDD101CC2A545BB850C0E /* Random.swift */,
+				0AA5D9A4D850007CAD4D216427630D55 /* Rose.swift */,
+				085137C3D43CEFEAF3F1357676095E37 /* State.swift */,
+				94D6954B8F04BE10F3930C2A46B8434F /* Test.swift */,
+				2984A199C119AC1ED76F3CC44640E925 /* Testable.swift */,
+				80A03641970F0ACBDC6551F617362A2B /* Witness.swift */,
+				0EB1B8F85EBB73173BF32146389AF081 /* WitnessedArbitrary.swift */,
+				6B4741FF75B3CF93BEDCCB614556DF25 /* Support Files */,
+			);
+			name = SwiftCheck;
+			path = SwiftCheck;
+			sourceTree = "<group>";
+		};
+		413D22A55E13C7FE1A8B8033AB338163 /* Pods-SwiftCheckMathMagicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				549FEA717CF85661A29A8B60287D926F /* Info.plist */,
+				3304E8F3393B3DF33F27618DE2CAAA38 /* Pods-SwiftCheckMathMagicUITests.modulemap */,
+				D328ED1D1D854DD7F21CD0C07194CE5F /* Pods-SwiftCheckMathMagicUITests-acknowledgements.markdown */,
+				8F403BDE167480729822CE84B5678CAE /* Pods-SwiftCheckMathMagicUITests-acknowledgements.plist */,
+				F298F19D0F16D783456BC217BB7E0CAE /* Pods-SwiftCheckMathMagicUITests-dummy.m */,
+				18682C66B8FFB46C15537B3F04F81CEE /* Pods-SwiftCheckMathMagicUITests-frameworks.sh */,
+				C60B1621ECD312E4ABC9845913E39036 /* Pods-SwiftCheckMathMagicUITests-resources.sh */,
+				4FB572AD7FBF9A625FFE9F3981C0DC2C /* Pods-SwiftCheckMathMagicUITests-umbrella.h */,
+				97F9ECDD7D17DEC9F318F421C16A223E /* Pods-SwiftCheckMathMagicUITests.debug.xcconfig */,
+				D0EA26BA25A9E20DE1A144E06FFBE552 /* Pods-SwiftCheckMathMagicUITests.release.xcconfig */,
+			);
+			name = "Pods-SwiftCheckMathMagicUITests";
+			path = "Target Support Files/Pods-SwiftCheckMathMagicUITests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BE34EE7067F7CC8A54539A282682749 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B4741FF75B3CF93BEDCCB614556DF25 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				175286A0B340C4A3EF69476D81B71777 /* Info.plist */,
+				9D85E6F24C6FF2CA49B6734BC34DE54F /* SwiftCheck.modulemap */,
+				06A3E9195371B3F54CA921FFB8C81EC6 /* SwiftCheck.xcconfig */,
+				AFF31CBF5D2290AE3FCABF8B00269CD3 /* SwiftCheck-dummy.m */,
+				4A4269C1E3D28C8EA4D2BD2397574DAC /* SwiftCheck-prefix.pch */,
+				A25C589D1AD5E8629571E548CAF210C8 /* SwiftCheck-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftCheck";
+			sourceTree = "<group>";
+		};
+		734067338FE3906545533408D99B0760 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3FCFF8311DEE263A1516C70AF0D2F1A /* Pods_SwiftCheckMathMagic.framework */,
+				6791EBBD6EE08D01D7EF14E8BC33849A /* Pods_SwiftCheckMathMagicTests.framework */,
+				205A1ABF4F5EF111DDD32D6C50FFDD9D /* Pods_SwiftCheckMathMagicUITests.framework */,
+				FA7CF715F88093B75CC53D6C7A7FAEA6 /* SwiftCheck.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BE34EE7067F7CC8A54539A282682749 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */,
+				3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				A5F712244614AE72248709FA1B252864 /* Pods */,
+				734067338FE3906545533408D99B0760 /* Products */,
+				04724548D62F82B5E3708789755D0571 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E7933473B8467E357B4384791BB7AC6 /* Pods-SwiftCheckMathMagicTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC73E5EDEDF620E5EB90B29A6A0F4186 /* Info.plist */,
+				872F6B179B042D62B0C17AF125EED786 /* Pods-SwiftCheckMathMagicTests.modulemap */,
+				45E648CB31EF5442160DA321A8E0AA9C /* Pods-SwiftCheckMathMagicTests-acknowledgements.markdown */,
+				D6DC2E415E3904D25262E3E1BA43CC21 /* Pods-SwiftCheckMathMagicTests-acknowledgements.plist */,
+				B5566C77DB1AB2F4C872A8441C462941 /* Pods-SwiftCheckMathMagicTests-dummy.m */,
+				1588E75698D5CE7AF7E3E1C404FA32FA /* Pods-SwiftCheckMathMagicTests-frameworks.sh */,
+				A72FBF2473959A8DC274CFBA4D736CB8 /* Pods-SwiftCheckMathMagicTests-resources.sh */,
+				43991DE198F06BE8A92B932BACBE2BA0 /* Pods-SwiftCheckMathMagicTests-umbrella.h */,
+				FF9ADAC35DA375B3160C906E82482D68 /* Pods-SwiftCheckMathMagicTests.debug.xcconfig */,
+				33018BAD84D464435E156043E622BB72 /* Pods-SwiftCheckMathMagicTests.release.xcconfig */,
+			);
+			name = "Pods-SwiftCheckMathMagicTests";
+			path = "Target Support Files/Pods-SwiftCheckMathMagicTests";
+			sourceTree = "<group>";
+		};
+		A5F712244614AE72248709FA1B252864 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CD4912585D8D207A9DAB24E114974C9 /* SwiftCheck */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF38C25D2F1B9395DD0B268FCD600931 /* Pods-SwiftCheckMathMagic */ = {
+			isa = PBXGroup;
+			children = (
+				85DD9218112D234933A84F175F5F0CFD /* Info.plist */,
+				905637738ABB9F6302581E006B29510C /* Pods-SwiftCheckMathMagic.modulemap */,
+				463E4CF8021CF64C3BED28E2D1EEA8AE /* Pods-SwiftCheckMathMagic-acknowledgements.markdown */,
+				99EBCFC7E5569B91896EA78FA8ED3D17 /* Pods-SwiftCheckMathMagic-acknowledgements.plist */,
+				07FAAD42FA7D40980EC8971E9B2685A6 /* Pods-SwiftCheckMathMagic-dummy.m */,
+				553B55AFFB897B6E5E6E6006084FA79C /* Pods-SwiftCheckMathMagic-frameworks.sh */,
+				5E1C6463F9724E3F7E28B5098F57571A /* Pods-SwiftCheckMathMagic-resources.sh */,
+				F528559FE0964E455B0D4CD8883CED27 /* Pods-SwiftCheckMathMagic-umbrella.h */,
+				13C4887CAB9EE998404E3B9C6274F16B /* Pods-SwiftCheckMathMagic.debug.xcconfig */,
+				82986B6C4975F8D86C34B8C92B424177 /* Pods-SwiftCheckMathMagic.release.xcconfig */,
+			);
+			name = "Pods-SwiftCheckMathMagic";
+			path = "Target Support Files/Pods-SwiftCheckMathMagic";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		478A3D6EFB48668650E7C7951F36DFDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3BD7FDCC3C241CD6DEB7E5CC2A4A97 /* Pods-SwiftCheckMathMagicTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B97AB1A6A7F6BE640C1606B5A012E36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C94463527C09C7788B5418D584603EB /* SwiftCheck-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAF677AF0FEDE6D3D7470C05924CA75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981AFE023A39E08ED20275AC6D8A8135 /* Pods-SwiftCheckMathMagic-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97397EEB8AE08C29958A1AE9A588366 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1F545071D6039A52D38083B9556B58 /* Pods-SwiftCheckMathMagicUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BDF636683AEC23ED61A4EA88BA39C3A /* Pods-SwiftCheckMathMagicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5DAA9991FE0553B50B26CDC90B97446 /* Build configuration list for PBXNativeTarget "Pods-SwiftCheckMathMagicUITests" */;
+			buildPhases = (
+				F15BC90C44933B4D422820D67CB00DF7 /* Sources */,
+				6937BE78E10A33B20A7976CEABBD6271 /* Frameworks */,
+				D97397EEB8AE08C29958A1AE9A588366 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SwiftCheckMathMagicUITests";
+			productName = "Pods-SwiftCheckMathMagicUITests";
+			productReference = 205A1ABF4F5EF111DDD32D6C50FFDD9D /* Pods_SwiftCheckMathMagicUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BA9988BBBFCBCF9620868B6CC4DEE82 /* Pods-SwiftCheckMathMagicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49C962A5BD3A7378ED56016422FB114 /* Build configuration list for PBXNativeTarget "Pods-SwiftCheckMathMagicTests" */;
+			buildPhases = (
+				D86772974AFD0D87637A4D2E09B7F363 /* Sources */,
+				2B8F5EB677F9C03E26CE89F6FFF381B5 /* Frameworks */,
+				478A3D6EFB48668650E7C7951F36DFDE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79FDA02EC29403F2E8122547DF169449 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftCheckMathMagicTests";
+			productName = "Pods-SwiftCheckMathMagicTests";
+			productReference = 6791EBBD6EE08D01D7EF14E8BC33849A /* Pods_SwiftCheckMathMagicTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD092727BBA931D051E4790A8D4BD61F /* Pods-SwiftCheckMathMagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78571FD30E2403387544664B6B75201D /* Build configuration list for PBXNativeTarget "Pods-SwiftCheckMathMagic" */;
+			buildPhases = (
+				A01559F72EB914D676B598C5F803C853 /* Sources */,
+				36E8527B46152B31D746D53B6EC9AC32 /* Frameworks */,
+				5EAF677AF0FEDE6D3D7470C05924CA75 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SwiftCheckMathMagic";
+			productName = "Pods-SwiftCheckMathMagic";
+			productReference = E3FCFF8311DEE263A1516C70AF0D2F1A /* Pods_SwiftCheckMathMagic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4BB3734842A22F6B02B1B060422BD5D /* SwiftCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F360D4A70FD32EAC2098F28A47232878 /* Build configuration list for PBXNativeTarget "SwiftCheck" */;
+			buildPhases = (
+				43408E1F1503A0503B010DA40FF59A3E /* Sources */,
+				80CD240D11C09D99C12C6964F8AD7BCA /* Frameworks */,
+				4B97AB1A6A7F6BE640C1606B5A012E36 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCheck;
+			productName = SwiftCheck;
+			productReference = FA7CF715F88093B75CC53D6C7A7FAEA6 /* SwiftCheck.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 734067338FE3906545533408D99B0760 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD092727BBA931D051E4790A8D4BD61F /* Pods-SwiftCheckMathMagic */,
+				9BA9988BBBFCBCF9620868B6CC4DEE82 /* Pods-SwiftCheckMathMagicTests */,
+				0BDF636683AEC23ED61A4EA88BA39C3A /* Pods-SwiftCheckMathMagicUITests */,
+				D4BB3734842A22F6B02B1B060422BD5D /* SwiftCheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43408E1F1503A0503B010DA40FF59A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA2C16B03D3D25ABE67DBE1702C5F07 /* Arbitrary.swift in Sources */,
+				1213265638FA4B11F60610899FD06BE5 /* Cartesian.swift in Sources */,
+				A41E1130F53E0D356B1752A2F632DD5C /* Check.swift in Sources */,
+				11B64D117CA9527BF107C8AC15D6A18C /* CoArbitrary.swift in Sources */,
+				376B6026AD221F584B0348390FEB25FD /* Compose.swift in Sources */,
+				21289CBA7D0C98901CAC4AC1D4CB76D5 /* Gen.swift in Sources */,
+				0A23C3608381ECA01C1BE56CDD8377FD /* Lattice.swift in Sources */,
+				9010E886BAA8C0504E6B5EB77FED3A0C /* Modifiers.swift in Sources */,
+				3DB3715086D79D8A6A48ED749BACC7F6 /* Property.swift in Sources */,
+				C16F9E21E97B48EF59EB30787EF61D0D /* Random.swift in Sources */,
+				DD2B13F4C4ADC1BF71547FF0E254EF23 /* Rose.swift in Sources */,
+				30A12CA3D4931EFB97EE51CF82B9C6C4 /* State.swift in Sources */,
+				B1597622F7D4E727B32AD30F45D31DB0 /* SwiftCheck-dummy.m in Sources */,
+				C22ECEA90CA18876FDD6BD865EA4FB9F /* Test.swift in Sources */,
+				BD470586B179FB88E33830D2708046D6 /* Testable.swift in Sources */,
+				FEAEDB30678AC532495C6B9BAB0D542C /* Witness.swift in Sources */,
+				7A4115195FCDF4CB5AE6CCA9F2BA98B4 /* WitnessedArbitrary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01559F72EB914D676B598C5F803C853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E21DC756ACD2D3D6ED0470820643D2 /* Pods-SwiftCheckMathMagic-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86772974AFD0D87637A4D2E09B7F363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD25961F73380F96A06CE6BC6E0804B5 /* Pods-SwiftCheckMathMagicTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15BC90C44933B4D422820D67CB00DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAA996BC2C082CBD384106F3247CC8F /* Pods-SwiftCheckMathMagicUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79FDA02EC29403F2E8122547DF169449 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftCheck;
+			target = D4BB3734842A22F6B02B1B060422BD5D /* SwiftCheck */;
+			targetProxy = 5313587E0E9BA8653E250C80474511D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0112C76B6E9EB0929ECA1C548FB83B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF9ADAC35DA375B3160C906E82482D68 /* Pods-SwiftCheckMathMagicTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftCheckMathMagicTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftCheckMathMagicTests/Pods-SwiftCheckMathMagicTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftCheckMathMagicTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30F3AF42FE1E3F235C2187DE242BBFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33018BAD84D464435E156043E622BB72 /* Pods-SwiftCheckMathMagicTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftCheckMathMagicTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftCheckMathMagicTests/Pods-SwiftCheckMathMagicTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftCheckMathMagicTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31DB66B2B19A083351ADE80B962F9F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0EA26BA25A9E20DE1A144E06FFBE552 /* Pods-SwiftCheckMathMagicUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftCheckMathMagicUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftCheckMathMagicUITests/Pods-SwiftCheckMathMagicUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftCheckMathMagicUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4760370F22862DEBAE578BD7C524285F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A3E9195371B3F54CA921FFB8C81EC6 /* SwiftCheck.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCheck/SwiftCheck-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCheck/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftCheck/SwiftCheck.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftCheck;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47BD73E0FEA840E34D318DCF98B055DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13C4887CAB9EE998404E3B9C6274F16B /* Pods-SwiftCheckMathMagic.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftCheckMathMagic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftCheckMathMagic/Pods-SwiftCheckMathMagic.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftCheckMathMagic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C2049BDF50A2C4CE6A0ED1D2CF0A5B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82986B6C4975F8D86C34B8C92B424177 /* Pods-SwiftCheckMathMagic.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftCheckMathMagic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftCheckMathMagic/Pods-SwiftCheckMathMagic.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftCheckMathMagic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5341E7BC55846E12123BC7E5B7F7A8CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F9ECDD7D17DEC9F318F421C16A223E /* Pods-SwiftCheckMathMagicUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftCheckMathMagicUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftCheckMathMagicUITests/Pods-SwiftCheckMathMagicUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftCheckMathMagicUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81A812299E918EABBCCBCE965504D82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A3E9195371B3F54CA921FFB8C81EC6 /* SwiftCheck.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCheck/SwiftCheck-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCheck/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftCheck/SwiftCheck.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftCheck;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78571FD30E2403387544664B6B75201D /* Build configuration list for PBXNativeTarget "Pods-SwiftCheckMathMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BD73E0FEA840E34D318DCF98B055DA /* Debug */,
+				4C2049BDF50A2C4CE6A0ED1D2CF0A5B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49C962A5BD3A7378ED56016422FB114 /* Build configuration list for PBXNativeTarget "Pods-SwiftCheckMathMagicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0112C76B6E9EB0929ECA1C548FB83B49 /* Debug */,
+				30F3AF42FE1E3F235C2187DE242BBFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5DAA9991FE0553B50B26CDC90B97446 /* Build configuration list for PBXNativeTarget "Pods-SwiftCheckMathMagicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5341E7BC55846E12123BC7E5B7F7A8CD /* Debug */,
+				31DB66B2B19A083351ADE80B962F9F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F360D4A70FD32EAC2098F28A47232878 /* Build configuration list for PBXNativeTarget "SwiftCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4760370F22862DEBAE578BD7C524285F /* Debug */,
+				81A812299E918EABBCCBCE965504D82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -7,30 +7,36 @@
 //
 
 import XCTest
+import SwiftCheck
 @testable import SwiftCheckMathMagic
 
 class SwiftCheckMathMagicTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func test_solveNumbers() {
+        XCTAssertEqual(3, solveNumbers(6, 3, 9,  2,  1, 7))
+        XCTAssertEqual(2, solveNumbers(4, 2, 8,  1,  5, 3))
+        XCTAssertEqual(0, solveNumbers(1, 2, 1, 11, 17, 4))
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func test_solveNumbers_property() {
+
+        property("どんな数字に対しても「b + e」が偶数と奇数の組み合わせであれば「a + f + 5」の1桁目、そうでなければ「a + f」の1桁目になること")
+            <- forAll { (a: UInt, b: UInt, c: UInt, d: UInt, e: UInt, f: UInt) in
+                
+            let answer = solveNumbers(a, b, c, d, e, f)
+                
+            let isEvenAndOdd = (b.even && e.odd) || (b.odd && e.even)
+            return isEvenAndOdd
+                ? answer == (a + f + 5).oneDigit
+                : answer == (a + f).oneDigit
         }
     }
-    
 }

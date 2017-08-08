@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04EB567D8CEADF223BEB272A /* Pods_SwiftCheckMathMagic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BC6E0975E90A8216AAF46F /* Pods_SwiftCheckMathMagic.framework */; };
+		48900CAF616DA5F69FE867FB /* Pods_SwiftCheckMathMagicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFD01ED860CE94B2954EA9E /* Pods_SwiftCheckMathMagicTests.framework */; };
 		70A9DB841F39EC0400FFAE2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A9DB831F39EC0400FFAE2A /* AppDelegate.swift */; };
 		70A9DB861F39EC0400FFAE2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A9DB851F39EC0400FFAE2A /* ViewController.swift */; };
 		70A9DB891F39EC0400FFAE2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A9DB871F39EC0400FFAE2A /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		70A9DB8E1F39EC0400FFAE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A9DB8C1F39EC0400FFAE2A /* LaunchScreen.storyboard */; };
 		70A9DB991F39EC0400FFAE2A /* SwiftCheckMathMagicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A9DB981F39EC0400FFAE2A /* SwiftCheckMathMagicTests.swift */; };
 		70A9DBA41F39EC0400FFAE2A /* SwiftCheckMathMagicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A9DBA31F39EC0400FFAE2A /* SwiftCheckMathMagicUITests.swift */; };
+		70A9DBB21F39EFB000FFAE2A /* MathMagic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A9DBB11F39EFB000FFAE2A /* MathMagic.swift */; };
+		70FC605E1F3A064100FB49DA /* UInt+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FC605D1F3A064100FB49DA /* UInt+extension.swift */; };
+		70FC60601F3A06D500FB49DA /* UInt+extensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FC605F1F3A06D500FB49DA /* UInt+extensionTests.swift */; };
+		B329B1BD21245E7B99C3EA6D /* Pods_SwiftCheckMathMagicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6E236FB27FFDD803BAE890 /* Pods_SwiftCheckMathMagicUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A493E4C9FBD343D253BADB6 /* Pods-SwiftCheckMathMagicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCheckMathMagicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCheckMathMagicTests/Pods-SwiftCheckMathMagicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6975E94025E0B4411D99883F /* Pods-SwiftCheckMathMagicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCheckMathMagicUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCheckMathMagicUITests/Pods-SwiftCheckMathMagicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A9DE1F2370495F365AC259D /* Pods-SwiftCheckMathMagicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCheckMathMagicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCheckMathMagicTests/Pods-SwiftCheckMathMagicTests.release.xcconfig"; sourceTree = "<group>"; };
+		6EFD01ED860CE94B2954EA9E /* Pods_SwiftCheckMathMagicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCheckMathMagicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A9DB801F39EC0400FFAE2A /* SwiftCheckMathMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCheckMathMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A9DB831F39EC0400FFAE2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70A9DB851F39EC0400FFAE2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,14 @@
 		70A9DB9F1F39EC0400FFAE2A /* SwiftCheckMathMagicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCheckMathMagicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A9DBA31F39EC0400FFAE2A /* SwiftCheckMathMagicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCheckMathMagicUITests.swift; sourceTree = "<group>"; };
 		70A9DBA51F39EC0400FFAE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A9DBB11F39EFB000FFAE2A /* MathMagic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathMagic.swift; sourceTree = "<group>"; };
+		70FC605D1F3A064100FB49DA /* UInt+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt+extension.swift"; sourceTree = "<group>"; };
+		70FC605F1F3A06D500FB49DA /* UInt+extensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt+extensionTests.swift"; sourceTree = "<group>"; };
+		98BC6E0975E90A8216AAF46F /* Pods_SwiftCheckMathMagic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCheckMathMagic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C2E640BF27C4159A9E1E90 /* Pods-SwiftCheckMathMagic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCheckMathMagic.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCheckMathMagic/Pods-SwiftCheckMathMagic.release.xcconfig"; sourceTree = "<group>"; };
+		C84F071F2DAF8318BF9C2A0C /* Pods-SwiftCheckMathMagicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCheckMathMagicUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCheckMathMagicUITests/Pods-SwiftCheckMathMagicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED6E236FB27FFDD803BAE890 /* Pods_SwiftCheckMathMagicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCheckMathMagicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93F64FDA82EAF43354F202F /* Pods-SwiftCheckMathMagic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCheckMathMagic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCheckMathMagic/Pods-SwiftCheckMathMagic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EB567D8CEADF223BEB272A /* Pods_SwiftCheckMathMagic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48900CAF616DA5F69FE867FB /* Pods_SwiftCheckMathMagicTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B329B1BD21245E7B99C3EA6D /* Pods_SwiftCheckMathMagicUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C420EC218F830524A1BE085 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F93F64FDA82EAF43354F202F /* Pods-SwiftCheckMathMagic.debug.xcconfig */,
+				A8C2E640BF27C4159A9E1E90 /* Pods-SwiftCheckMathMagic.release.xcconfig */,
+				3A493E4C9FBD343D253BADB6 /* Pods-SwiftCheckMathMagicTests.debug.xcconfig */,
+				6A9DE1F2370495F365AC259D /* Pods-SwiftCheckMathMagicTests.release.xcconfig */,
+				C84F071F2DAF8318BF9C2A0C /* Pods-SwiftCheckMathMagicUITests.debug.xcconfig */,
+				6975E94025E0B4411D99883F /* Pods-SwiftCheckMathMagicUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		70A9DB771F39EC0400FFAE2A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				70A9DB971F39EC0400FFAE2A /* SwiftCheckMathMagicTests */,
 				70A9DBA21F39EC0400FFAE2A /* SwiftCheckMathMagicUITests */,
 				70A9DB811F39EC0400FFAE2A /* Products */,
+				3C420EC218F830524A1BE085 /* Pods */,
+				A355B9B9230855C929CC65D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +139,8 @@
 				70A9DB8A1F39EC0400FFAE2A /* Assets.xcassets */,
 				70A9DB8C1F39EC0400FFAE2A /* LaunchScreen.storyboard */,
 				70A9DB8F1F39EC0400FFAE2A /* Info.plist */,
+				70A9DBB11F39EFB000FFAE2A /* MathMagic.swift */,
+				70FC605D1F3A064100FB49DA /* UInt+extension.swift */,
 			);
 			path = SwiftCheckMathMagic;
 			sourceTree = "<group>";
@@ -111,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				70A9DB981F39EC0400FFAE2A /* SwiftCheckMathMagicTests.swift */,
+				70FC605F1F3A06D500FB49DA /* UInt+extensionTests.swift */,
 				70A9DB9A1F39EC0400FFAE2A /* Info.plist */,
 			);
 			path = SwiftCheckMathMagicTests;
@@ -125,6 +164,16 @@
 			path = SwiftCheckMathMagicUITests;
 			sourceTree = "<group>";
 		};
+		A355B9B9230855C929CC65D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98BC6E0975E90A8216AAF46F /* Pods_SwiftCheckMathMagic.framework */,
+				6EFD01ED860CE94B2954EA9E /* Pods_SwiftCheckMathMagicTests.framework */,
+				ED6E236FB27FFDD803BAE890 /* Pods_SwiftCheckMathMagicUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70A9DBA81F39EC0400FFAE2A /* Build configuration list for PBXNativeTarget "SwiftCheckMathMagic" */;
 			buildPhases = (
+				5687CE43BF25A4D3ACBE4463 /* [CP] Check Pods Manifest.lock */,
 				70A9DB7C1F39EC0400FFAE2A /* Sources */,
 				70A9DB7D1F39EC0400FFAE2A /* Frameworks */,
 				70A9DB7E1F39EC0400FFAE2A /* Resources */,
+				2699D62A18AD7369EE19AD6D /* [CP] Embed Pods Frameworks */,
+				8D709F51573B94412080C976 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70A9DBAB1F39EC0400FFAE2A /* Build configuration list for PBXNativeTarget "SwiftCheckMathMagicTests" */;
 			buildPhases = (
+				18216EC935AC8D64A6699077 /* [CP] Check Pods Manifest.lock */,
 				70A9DB901F39EC0400FFAE2A /* Sources */,
 				70A9DB911F39EC0400FFAE2A /* Frameworks */,
 				70A9DB921F39EC0400FFAE2A /* Resources */,
+				78945CD269E30FDE7F96777E /* [CP] Embed Pods Frameworks */,
+				802EC80DD0F26BBD55596054 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70A9DBAE1F39EC0400FFAE2A /* Build configuration list for PBXNativeTarget "SwiftCheckMathMagicUITests" */;
 			buildPhases = (
+				8822ED562684E00B8C016957 /* [CP] Check Pods Manifest.lock */,
 				70A9DB9B1F39EC0400FFAE2A /* Sources */,
 				70A9DB9C1F39EC0400FFAE2A /* Frameworks */,
 				70A9DB9D1F39EC0400FFAE2A /* Resources */,
+				17E4F5B570870DD09F15AFAE /* [CP] Embed Pods Frameworks */,
+				AEAC3B2DF48F3B05FD5D75CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,11 +315,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17E4F5B570870DD09F15AFAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCheckMathMagicUITests/Pods-SwiftCheckMathMagicUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18216EC935AC8D64A6699077 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftCheckMathMagicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2699D62A18AD7369EE19AD6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCheckMathMagic/Pods-SwiftCheckMathMagic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5687CE43BF25A4D3ACBE4463 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftCheckMathMagic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78945CD269E30FDE7F96777E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCheckMathMagicTests/Pods-SwiftCheckMathMagicTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftCheck/SwiftCheck.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCheck.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCheckMathMagicTests/Pods-SwiftCheckMathMagicTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		802EC80DD0F26BBD55596054 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCheckMathMagicTests/Pods-SwiftCheckMathMagicTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8822ED562684E00B8C016957 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftCheckMathMagicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D709F51573B94412080C976 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCheckMathMagic/Pods-SwiftCheckMathMagic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEAC3B2DF48F3B05FD5D75CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCheckMathMagicUITests/Pods-SwiftCheckMathMagicUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70A9DB7C1F39EC0400FFAE2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70A9DBB21F39EFB000FFAE2A /* MathMagic.swift in Sources */,
+				70FC605E1F3A064100FB49DA /* UInt+extension.swift in Sources */,
 				70A9DB861F39EC0400FFAE2A /* ViewController.swift in Sources */,
 				70A9DB841F39EC0400FFAE2A /* AppDelegate.swift in Sources */,
 			);
@@ -272,6 +482,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70A9DB991F39EC0400FFAE2A /* SwiftCheckMathMagicTests.swift in Sources */,
+				70FC60601F3A06D500FB49DA /* UInt+extensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +624,7 @@
 		};
 		70A9DBA91F39EC0400FFAE2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F93F64FDA82EAF43354F202F /* Pods-SwiftCheckMathMagic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P437HSA6PY;
@@ -426,6 +638,7 @@
 		};
 		70A9DBAA1F39EC0400FFAE2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8C2E640BF27C4159A9E1E90 /* Pods-SwiftCheckMathMagic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P437HSA6PY;
@@ -439,6 +652,7 @@
 		};
 		70A9DBAC1F39EC0400FFAE2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A493E4C9FBD343D253BADB6 /* Pods-SwiftCheckMathMagicTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +668,7 @@
 		};
 		70A9DBAD1F39EC0400FFAE2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A9DE1F2370495F365AC259D /* Pods-SwiftCheckMathMagicTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +684,7 @@
 		};
 		70A9DBAF1F39EC0400FFAE2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C84F071F2DAF8318BF9C2A0C /* Pods-SwiftCheckMathMagicUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P437HSA6PY;
@@ -483,6 +699,7 @@
 		};
 		70A9DBB01F39EC0400FFAE2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6975E94025E0B4411D99883F /* Pods-SwiftCheckMathMagicUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P437HSA6PY;
@@ -514,6 +731,7 @@
 				70A9DBAA1F39EC0400FFAE2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70A9DBAB1F39EC0400FFAE2A /* Build configuration list for PBXNativeTarget "SwiftCheckMathMagicTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +740,7 @@
 				70A9DBAD1F39EC0400FFAE2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70A9DBAE1F39EC0400FFAE2A /* Build configuration list for PBXNativeTarget "SwiftCheckMathMagicUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +749,7 @@
 				70A9DBB01F39EC0400FFAE2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
